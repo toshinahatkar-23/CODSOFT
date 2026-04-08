@@ -38,4 +38,6 @@ This project detects fraudulent credit card transactions using machine learning 
 ## 📂 Files
 
 * fraud.py → Model code
-* creditcard.csv → Dataset
+## 📂 Dataset
+Dataset is too large to upload. You can download it from Kaggle:
+https://www.kaggle.com/mlg-ulb/creditcardfraud

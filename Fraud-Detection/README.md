@@ -15,20 +15,27 @@ This project detects fraudulent credit card transactions using machine learning 
 
 ## ⚙️ Steps Performed
 
-* Data Preprocessing
-* Handling Class Imbalance
+* Data Preprocessing and Feature Scaling using StandardScaler
+* Handling Class Imbalance using class_weight='balanced'
 * Train-Test Split
 * Model Training using Logistic Regression
-* Model Evaluation using Precision, Recall, and F1-score
-
+* Model Evaluation using Precision, Recall, F1-score, and Confusion Matrix
+  
 ## 🤖 Model Used
 
-* Logistic Regression
+* Logistic Regression with class balancing
 
 ## 📈 Result
 
-* Model successfully identifies fraudulent transactions
+* Model achieves high recall in detecting fraudulent transactions, ensuring most fraud cases are correctly identified despite class imbalance.
 
+## 📊 Key Insights
+
+* Dataset is highly imbalanced (very few fraud cases)
+* Accuracy is not a reliable metric for this problem
+* Model focuses on maximizing recall to detect fraud cases
+* Trade-off exists between precision and recall
+  
 ## 🛠️ Technologies Used
 
 * Python

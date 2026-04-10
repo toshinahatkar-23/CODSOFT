@@ -27,7 +27,8 @@ This project predicts whether a passenger survived the Titanic disaster using ma
 
 ## 📈 Result
 
-* Model predicts survival based on input features
+* Model achieved ~77% accuracy on test data
+* Model can predict whether a passenger survived based on input features
 
 ## 🛠️ Technologies Used
 

@@ -19,16 +19,25 @@ This project predicts the rating of a movie based on features like genre, direct
 
 * Data Cleaning (handled missing values)
 * Feature Engineering (converted categorical data using encoding)
-* Model Training using Linear Regression
+* Model Training using Random Forest Regressor
 * Model Evaluation
 
 ## 🤖 Model Used
 
-* Linear Regression
-
+* Random Forest Regressor
+  
 ## 📈 Result
 
-* Model predicts movie ratings based on given features
+*Model predicts movie ratings based on given features.
+
+Evaluation Metrics:
+- R2 Score (model performance)
+- Mean Squared Error (MSE)
+
+Additional Insights:
+- Feature Importance analysis
+- Predictions on new movie data
+- Visualization of Actual vs Predicted ratings
 
 ## 🛠️ Technologies Used
 

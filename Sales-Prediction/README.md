@@ -17,16 +17,29 @@ This project predicts product sales based on advertising expenditure across diff
 
 * Data Loading
 * Feature Selection
+* Train-Test Split
 * Model Training using Linear Regression
-* Model Evaluation using Mean Squared Error (MSE)
+* Model Evaluation using R2 Score and Mean Squared Error (MSE)
+* Prediction on new data
+* Feature Importance Analysis
+* Data Visualization (Actual vs Predicted)
 
 ## 🤖 Model Used
 
-* Linear Regression
+* Linear Regression (Multiple Linear Regression)
 
 ## 📈 Result
 
-* Model predicts sales based on advertising spending
+* Model predicts sales based on advertising spending.
+
+Evaluation Metrics:
+* R2 Score (model performance)
+* Mean Squared Error (MSE)
+
+Additional Features:
+* Prediction on new advertising data
+* Feature importance analysis (impact of TV, Radio, Newspaper)
+* Visualization of Actual vs Predicted Sales
 
 ## 🛠️ Technologies Used
 
